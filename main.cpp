@@ -2,16 +2,17 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
 	std::cout << "Hello World!" << std::endl;
 	
-	char znak;
+	std::string znak;
 
-	std::cout << "Zadajte znak: " << std::endl;
+	std::cout << "Zadajte retazec: " << std::endl;
 	std::cin >> znak;
-	std::cout << "Vase znak je: " << znak << std::endl;
+	std::cout << "Vase retazec je: " << znak << std::endl;
 	system("pause");
 		
 	return 0;
